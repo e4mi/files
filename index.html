@@ -1,8 +1,7 @@
 ---
 layout: null
 ---
-<title>mirror</title>
+<title>files</title>
 <pre>
 {% for file in site.static_files %}<a href="{{ file.path | remove_first: '/' }}">{{ file.name }}</a>
-{% endfor %}
-</pre>
+{% endfor %}</pre>
