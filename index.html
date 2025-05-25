@@ -3,5 +3,6 @@ layout: null
 ---
 <title>files</title>
 <pre>
+<a href="..">..</a>
 {% for file in site.static_files %}<a href="{{ file.path | remove_first: '/' }}">{{ file.name }}</a>
 {% endfor %}</pre>
